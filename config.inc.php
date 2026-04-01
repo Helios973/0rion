@@ -36,12 +36,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'mysql.railway.internal',
-  'user' => 'root',
-  'password' => 'sSfWhxxhIpcsCeBPpycliphrrhmthZwf',
+  'host' => 'mysql3.sqlpub.com',
+  'user' => 'orion12',
+  'password' => 'QLperczIS7fa6mDS',
   'charset' => 'utf8',
-  'port' => '3306',
-  'database' => 'railway',
+  'port' => '3308',
+  'database' => 'orion12',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
